@@ -67,6 +67,9 @@
 
   
   
+    
+    <script src="/js/mathjax-config.js"></script>
+  
 
   
 
@@ -183,9 +186,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -276,12 +279,12 @@
 
   
 
-<meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature." />
+<meta name="description" content="Introduction The goal of this series of posts is to provide a comprehensive overview of tree algorithms in machine learning. We will start with the basics and then move on to more advanced topics." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://example.com/talk/example-talk/" />
-<link rel="canonical" href="https://example.com/talk/example-talk/" />
+<link rel="alternate" hreflang="en-us" href="https://example.com/post/tree-algos-0/" />
+<link rel="canonical" href="https://example.com/post/tree-algos-0/" />
 
 
 
@@ -314,20 +317,20 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="https://example.com/talk/example-talk/featured.jpg" />
+<meta property="twitter:image" content="https://example.com/post/tree-algos-0/featured.jpg" />
 <meta property="og:site_name" content="Aaditya" />
-<meta property="og:url" content="https://example.com/talk/example-talk/" />
-<meta property="og:title" content="Example Talk | Aaditya" />
-<meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature." /><meta property="og:image" content="https://example.com/talk/example-talk/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://example.com/post/tree-algos-0/" />
+<meta property="og:title" content="Tree Algorithms in machine learning: part 0 | Aaditya" />
+<meta property="og:description" content="Introduction The goal of this series of posts is to provide a comprehensive overview of tree algorithms in machine learning. We will start with the basics and then move on to more advanced topics." /><meta property="og:image" content="https://example.com/post/tree-algos-0/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2017-01-01T00:00:00&#43;00:00"
+      content="2023-08-18T13:21:01&#43;05:30"
     />
   
   
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-08-18T13:21:01&#43;05:30">
   
 
 
@@ -335,9 +338,14 @@
 
 
 
-
-  
     
+
+
+
+
+
+
+  
 
 
 
@@ -345,63 +353,56 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://example.com/talk/example-talk/"
+    "@id": "https://example.com/post/tree-algos-0/"
   },
-  "name": "Example Talk",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
-  
+  "headline": "Tree Algorithms in machine learning: part 0",
   
   "image": [
-    "https://example.com/talk/example-talk/featured.jpg"
+    "https://example.com/post/tree-algos-0/featured.jpg"
   ],
   
-  "startDate": "2030-06-01T13:00:00Z",
+  "datePublished": "2023-08-18T13:21:01+05:30",
+  "dateModified": "2023-08-18T13:21:01+05:30",
   
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Aaditya Salgarkar"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Aaditya",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Introduction The goal of this series of posts is to provide a comprehensive overview of tree algorithms in machine learning. We will start with the basics and then move on to more advanced topics."
 }
 </script>
 
   
 
-
-
-
-  
-  
-  
-
-  
-  
-
   
 
 
+
+
   
-  <title>Example Talk | Aaditya</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Tree Algorithms in machine learning: part 0 | Aaditya</title>
 
   
   
@@ -421,7 +422,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="a8edef490afe42206247b6ac05657af0" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fbd164f3dc88e9cade1020d1c6f612d9" >
 
   
   
@@ -799,7 +800,7 @@
     
     
 
-    <div class="pub">
+    <article class="article">
 
   
 
@@ -829,7 +830,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Example Talk</h1>
+  <h1>Tree Algorithms in machine learning: part 0</h1>
 
   
 
@@ -842,9 +843,22 @@
   
 
   
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 18, 2023
+  </span>
+  
 
   
 
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
   
 
   
@@ -862,69 +876,14 @@
 
 
 
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>Follow</a>
-
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 1080px;">
   <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp" width="720" height="514" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs" target="_blank" rel="noopener"><strong>Unsplash</strong></a></span>
+    <img src="/post/tree-algos-0/featured_hufb06297a9e278ddb17c45edcc35f4496_635888_720x2500_fit_q75_h2_lanczos.webp" width="720" height="1080" alt="" class="featured-image">
+    
   </div>
 </div>
 
@@ -932,76 +891,54 @@
 
   <div class="article-container">
 
-    
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
-    
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall, Stanford, CA 94305</div>
-          
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
     <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
+      <h2 id="introduction">Introduction</h2>
+<p>The goal of this series of posts is to provide a comprehensive overview of tree algorithms in machine learning. We will start with the basics and then move on to more advanced topics.</p>
+<h2 id="what-is-a-tree-algorithm">What is a tree algorithm?</h2>
+<p>A tree algorithm is an algorithm that uses a tree data structure to solve a problem.
+The tree data structure is a hierarchical data structure that consists of nodes and edges.
+A tree is an acyclic graph, which means that there are no cycles in the graph.
+If there are $n$ nodes in a tree, then there are $n-1$ edges.</p>
+<p>To benchmark our implementation, we will be using the <a href="https://archive.ics.uci.edu/ml/datasets/iris" target="_blank" rel="noopener">Iris dataset</a>.</p>
+<p>Our goal is to build a tree based classifier for this with increasing sophistication.
+We will first use decision stump, which is the simplest type of decision tree with a single node.
+Then, we will move on to decision trees with multiple nodes.
+By themselves, decision trees are not very powerful.
+Finally, we will use random forests, which are an ensemble of decision trees.
+This uses interesting ideas based on ensemble learning to improve the performance of decision trees.</p>
+<h2 id="benchmark">Benchmark</h2>
+<p>We will use sci-kit learn to benchmark our implementation.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sklearn</span> <span class="k">as</span> <span class="nn">sk</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span><span class="p">;</span> <span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sklearn.datasets</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sklearn.metrics</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">sklearn.model_selection</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">iris</span> <span class="o">=</span> <span class="n">sk</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">load_iris</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">train_test_split</span> <span class="o">=</span> <span class="n">sk</span><span class="o">.</span><span class="n">model_selection</span><span class="o">.</span><span class="n">train_test_split</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">iris</span><span class="o">.</span><span class="n">target</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Decision Tree</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">tree</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span> <span class="o">=</span> <span class="n">tree</span><span class="o">.</span><span class="n">DecisionTreeClassifier</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">clf</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y_pred</span> <span class="o">=</span> <span class="n">clf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Decision Tree Accuracy:&#34;</span><span class="p">,</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">metrics</span><span class="o">.</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># random forest </span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span>
+</span></span><span class="line"><span class="cl"><span class="n">rf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">max_depth</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">rf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">y_pred</span> <span class="o">=</span> <span class="n">rf</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Random Forest Accuracy:&#34;</span><span class="p">,</span> <span class="n">sklearn</span><span class="o">.</span><span class="n">metrics</span><span class="o">.</span><span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">))</span>
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>In this post, we have seen how to use decision trees and random forests to classify the Iris dataset, using library implementation in sci-kit learn.
+In the next post, we will see how to implement decision trees from scratch, starting with a decision stump.</p>
 
     </div>
 
@@ -1028,7 +965,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F&amp;text=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F&amp;text=Tree&#43;Algorithms&#43;in&#43;machine&#43;learning%3A&#43;part&#43;0" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1045,7 +982,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F&amp;t=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F&amp;t=Tree&#43;Algorithms&#43;in&#43;machine&#43;learning%3A&#43;part&#43;0" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1064,7 +1001,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Tree%20Algorithms%20in%20machine%20learning%3A%20part%200&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1081,7 +1018,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F&amp;title=Tree&#43;Algorithms&#43;in&#43;machine&#43;learning%3A&#43;part&#43;0" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1098,7 +1035,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example&#43;Talk%20https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Tree&#43;Algorithms&#43;in&#43;machine&#43;learning%3A&#43;part&#43;0%20https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1115,7 +1052,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Ftalk%2Fexample-talk%2F&amp;title=Example&#43;Talk" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpost%2Ftree-algos-0%2F&amp;title=Tree&#43;Algorithms&#43;in&#43;machine&#43;learning%3A&#43;part&#43;0" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1246,7 +1183,7 @@
 
 
   </div>
-</div>
+</article>
   </div>
 
   <div class="page-footer">
