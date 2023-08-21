@@ -78,6 +78,7 @@ Random Forest Accuracy: 0.9666666666666667
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;In this post, we have seen how to use decision trees and random forests to classify the Iris dataset, using library implementation in sci-kit learn.
 In the next post, we will see how to implement decision trees from scratch, starting with a decision stump.&lt;/p&gt;
+&lt;p&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/p&gt;
 </description>
     </item>
     
