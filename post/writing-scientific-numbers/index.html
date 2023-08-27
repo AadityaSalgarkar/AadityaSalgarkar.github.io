@@ -932,10 +932,9 @@ Usually, numbers such as $134139349145$ are hard to parse." /><meta property="og
 </span></span><span class="line"><span class="cl">id: 25,score: 3,wrong: <span class="m">64</span>
 </span></span></code></pre></div><p>If we used the notation introduced here, the file would be sorted in vim easily.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">:sort /score: /
-</span></span></code></pre></div><p>(In fact, vim can also do numerical comparison, without new notation,</p>
+</span></span></code></pre></div><p>In fact, vim can also do numerical comparison, without new notation,</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">:sort /score: <span class="se">\d</span>*/ n r
-</span></span></code></pre></div><p>)</p>
-<h2 id="code">Code</h2>
+</span></span></code></pre></div><h2 id="code">Code</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">convert_to_new_notation</span><span class="p">(</span><span class="n">number</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 </span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
 </span></span></span><span class="line"><span class="cl"><span class="s2">    Convert a number to the new notation.
