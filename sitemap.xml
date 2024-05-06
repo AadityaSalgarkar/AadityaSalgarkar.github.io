@@ -50,6 +50,10 @@
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://example.com/tag/conformal-field-theory-bootstrap-regge-limit-string-theory./</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://example.com/publication/conformal-multiregge/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -64,6 +68,10 @@
   </url><url>
     <loc>https://example.com/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://example.com/tag/conformal-field-theory-bootstrap-rg-flows./</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/publication/sginads/</loc>
@@ -86,12 +94,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://example.com/categories/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/conformal-field-theory-bootstrap-regge-limit-string-theory./</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/conformal-field-theory-bootstrap-rg-flows./</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
